@@ -4,7 +4,7 @@ for i in range(100):
 
 count = 0
 
-with open("jasperinput.txt", "r") as file:
+with open("input.txt", "r") as file:
     contents = file.readlines()
     contents = [x.strip() for x in contents]
     for line in contents:
